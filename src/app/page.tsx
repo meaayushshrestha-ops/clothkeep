@@ -301,7 +301,7 @@ const money = (n: number, ccy: string) =>
   `${ccy} ${n.toLocaleString(undefined, { maximumFractionDigits: 2 })}`;
 
 const emptySettings: Settings = {
-  storeName: "ClothKeep Store",
+  storeName: "JOHNY GEAR STORE",
   currency: "NPR",
   taxRateDefault: 0,
   lowStockThreshold: 5,
@@ -622,8 +622,8 @@ export default function InventoryPOSApp() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-2xl bg-black text-white grid place-items-center font-bold">
-              CK
-            </div>
+  JG
+</div>
             <div>
               <div className="text-lg font-semibold leading-tight">
                 {settings.storeName || "ClothKeep"}
